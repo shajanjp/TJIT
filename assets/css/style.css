@@ -43,7 +43,7 @@ nav.navbar a.navbar-brand{
 }
 nav.navbar a.navbar-brand:hover,
 nav.navbar .nav li a:hover{
-	color: #ccc;
+	color: #fff;
 }
 nav.navbar .nav li a:hover,
 nav.navbar .nav li a:active,
@@ -73,7 +73,7 @@ nav.navbar .nav li.open>a:active,
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
-	color: #ccc;
+	color: #fff;
 	background-color: #da251c;
 }
 
@@ -88,4 +88,24 @@ footer{
 section#why-us{
 	background-color: #da251c;
 	color: white;
+}
+
+section#mission-and-vision{
+	color: white;
+	background-color: #015198;
+}
+
+section#brand-title{
+	text-align: center;
+	background-color: #da251c;
+	color: white;
+	padding: 20px 0px;
+}
+section#brand-title h1{
+	margin: 5px auto;
+}
+section#brand-title h2{
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 0px;
 }
