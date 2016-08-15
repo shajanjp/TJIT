@@ -1,11 +1,34 @@
 /* da251c-015198-ffc857-403f4c-fafaff */
 /* red-blue-yellow-gray-white */
+body{
+	background-color: #fafaff;
+}
+
+section{
+	padding: 20px 0px;
+}
 /* Navbar */
 nav.navbar{
 	border: 0px;
 	background-color: #da251c;
 	border-radius: 0px;
 	margin-bottom: 0px;
+}
+.btn-blue,.btn-red,
+.btn-blue:hover,.btn-red:hover{
+	color: #fff;
+	border-radius: 0px;
+}
+.btn-blue:hover,.btn-red:hover{
+	border-color: #eee;
+}
+.btn-blue{
+	background-color: #015198;
+	border-color: #015198;
+}
+.btn-red{
+	background-color: #da251c;
+	border-color: #da251c;	
 }
 nav.navbar .nav li a,
 nav.navbar a.navbar-brand{
@@ -52,4 +75,17 @@ nav.navbar .nav li.open>a:active,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
 	color: #ccc;
 	background-color: #da251c;
+}
+
+/* Footer */
+footer{
+	background-color: #015198;
+	color: white;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+section#why-us{
+	background-color: #da251c;
+	color: white;
 }
