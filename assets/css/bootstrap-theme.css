@@ -1,0 +1,33 @@
+/** Bootstrap v3.3.6 theme for TJIT * Copyright 2011-2015 GuysWhoCode* Licensed under GPL (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500);
+body{
+	background-color:#fafaff;
+	font-family: 'Ubuntu', sans-serif;
+}
+.btn.form-control{
+	border-radius:0px;
+}
+.form-control,
+.form-control:focus{
+	box-shadow:none;
+}
+.color-red,
+.color-1{
+	color:#da251c;
+}
+.color-blue,
+.color-2{
+	color:#015198;
+}
+.color-yellow,
+.color-3{
+	color:#ffc857;
+}
+.color-ash,
+.color-4{
+	color:#403f4c;
+}
+.color-white,
+.color-5{
+	color:#fafaff;
+}
