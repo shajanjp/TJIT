@@ -137,8 +137,38 @@ section#brand-title h2{
 }
 
 #objectives .objective{
-	padding: 60px 30px;
+	padding: 80px 30px;
 }
 #objectives .jumbo{
 	padding: 0px;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#objectives .objective{
+		padding: 30px 30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#objectives .objective{
+		padding: 40px 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
 }
