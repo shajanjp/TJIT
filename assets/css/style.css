@@ -48,8 +48,10 @@ nav.navbar .nav li a:hover{
 nav.navbar .nav li a:hover,
 nav.navbar .nav li a:active,
 nav.navbar .nav li a:focus,
+nav.navbar .nav li a:visited,
 nav.navbar .nav li.open>a:focus,
 nav.navbar .nav li.open>a:active,
+nav.navbar .nav li.open>a:active:visited
 .navbar-nav > li > .dropdown-menu{
 	background-color: #015198;
 	color: white;
@@ -59,7 +61,8 @@ nav.navbar .nav li.open>a:active,
 	margin-left: -1px;
 }
 .navbar-nav > li > .dropdown-menu li a:hover
-.navbar-nav > li > .dropdown-menu li a:focus{
+.navbar-nav > li > .dropdown-menu li a:focus,
+.navbar-nav > li > .dropdown-menu li a:visited{
 	background-color: #da251c;
 }
 .navbar-nav .open .dropdown-menu{
@@ -83,15 +86,23 @@ footer{
 	color: white;
 	padding-top: 30px;
 }
-
+footer ul{
+	padding-left:0px;
+	list-style: none; 
+}
+footer li a,
+footer li a:hover{
+	color: white;
+	text-decoration: none;
+}
 section#why-us{
-	background-color: #da251c;
+	background-color: #403f4c;
 	color: white;
 }
 
 section#mission-and-vision{
-	color: white;
-	background-color: #015198;
+	color: #fff;
+	background-color: #403f4c;
 }
 
 section#brand-title{
@@ -107,4 +118,27 @@ section#brand-title h2{
 	font-size: 22px;
 	font-weight: 300;
 	margin-top: 0px;
+}
+#objectives .row:first-child{
+	margin-bottom: 30px;
+}
+#objectives .row:not(:first-child){
+	background-color: green;
+}
+#objectives .row:nth-child(2),
+#objectives .row:nth-child(4){
+	background-color: #015198;
+}
+#objectives .row:nth-child(3){
+	background-color: #da251c;
+}
+#objectives .row p{
+	color: #fff;
+}
+
+#objectives .objective{
+	padding: 60px 30px;
+}
+#objectives .jumbo{
+	padding: 0px;
 }
