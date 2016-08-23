@@ -2,6 +2,7 @@
 /* red-blue-yellow-gray-white */
 body{
 	background-color: #fafaff;
+	font-size: 16px;
 }
 
 section{
@@ -137,38 +138,39 @@ section#brand-title h2{
 }
 
 #objectives .objective{
-	padding: 80px 30px;
+	font-size: 16px;
+	padding: 110px 70px;
 }
 #objectives .jumbo{
 	padding: 0px;
 }
 
-
-/* Large Devices, Wide Screens */
+/* LG */
+/* Large Devices, Desktops */
 @media only screen and (max-width : 1200px) {
-
+	#objectives .objective{
+		padding: 80px 40px;
+	}
 }
 
+/* MD */
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	#objectives .objective{
-		padding: 30px 30px;
+		padding: 30px 10px;
 	}
 }
 
+/* SM */
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	#objectives .objective{
-		padding: 40px 20px;
+		padding: 15px 10px;
 	}
 }
 
+/* XS */
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
 
 }
