@@ -3,12 +3,19 @@
 body{
 	background-color: #fafaff;
 	font-size: 16px;
+	line-height: 1.25;
 }
-
+section{
+	padding-top: 30px;
+}
 section h2.section-head{
-	font-weight: 100;
+	color: #666;
+	margin: 10px 0px;
+	font-weight: bold;
 	text-align: center;
-	font-size: 34px;
+	font-size: 22px;
+	text-transform: uppercase;
+
 }
 .card{
 	background-color:white;
@@ -99,7 +106,6 @@ section#mission-and-vision{
 
 section#why-us{
 	color: white;
-	margin-top: 30px;
 }
 section#why-us .container{
 	background-color: #403f4c;
@@ -117,6 +123,27 @@ section#why-us .highlights .highlight .symbol{
 section#why-us .highlights .highlight img{
 	width: 100%;
 }
+
+/* Courses Offered */
+section#courses-offered{
+	margin-top: 20px;
+	background-image: url('../img/courses.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	padding: 60px 0px;
+}
+section#courses-offered h2.section-head{
+	color: white;
+}
+section#courses-offered .course{
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
 
 /* Mission and Vision */
 section#mission-and-vision{
@@ -144,9 +171,28 @@ section#brand-title h2{
 	margin-top: 0px;
 }
 
+/* Achievements */
+section#achievements .container{
+	background-color: #015198;
+	color: white;
+	padding: 30px 0px;
+}
+section#achievements .achievement{
+	text-align: center;
+}
+section#achievements .achievement p{
+	margin-bottom: 0px;
+}
+section#achievements .achievement p.num{
+	font-size: 52px;
+}
+section#achievements .achievement p.title{
+	font-size: 24px;
+}
+
 /* Recent blogs */
 section#recent-blogs .blog{
-padding: 10px;
+	padding: 10px;
 }
 section#recent-blogs article img{
 	width: 100%;
@@ -159,6 +205,8 @@ section#recent-blogs article div{
 }
 section#recent-blogs article{
 	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 /* Objectives */
@@ -177,23 +225,30 @@ section#objectives .objective:nth-child(2){
 
 /* Recent Placements */
 section#recent-placements .container{
-	background-color: #ffc857;
+	/* background-color: #ffc857; */
 	padding-bottom: 20px;
-	color: #403f4c;
+	color: #666;
 }
 section#recent-placements .placed{
 	padding: 2px;
 }
+section#recent-placements .placed:nth-child(odd)>div{
+	background-color: #fff;
+}
+section#recent-placements .placed:nth-child(even)>div{
+	background-color: #fff;
+}
 section#recent-placements .placed>div{
-padding: 4px;
-background-color: #fff;
+	padding: 4px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 section#recent-placements .placed p{
 	font-size: 14px;
 	margin-bottom: 0px;
 }
 section#recent-placements .placed p.company{
-font-size: 12px;
+	font-size: 12px;
 }
 section#recent-placements .placed p.course{
 	font-size: 10px;
@@ -240,7 +295,9 @@ footer li a:hover{
 /* SM */
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	section{
+		padding-top: 0px;
+	}
 }
 
 /* XS */
