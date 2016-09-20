@@ -144,6 +144,23 @@ section#brand-title h2{
 	margin-top: 0px;
 }
 
+/* Recent blogs */
+section#recent-blogs .blog{
+padding: 10px;
+}
+section#recent-blogs article img{
+	width: 100%;
+}
+section#recent-blogs article h3{
+	margin-top: 0px;
+}
+section#recent-blogs article div{
+	padding: 15px;
+}
+section#recent-blogs article{
+	background-color: #fff;
+}
+
 /* Objectives */
 section#objectives .objective{
 	text-align: justify;
