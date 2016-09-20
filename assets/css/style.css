@@ -165,7 +165,11 @@ section#recent-placements .container{
 	color: #403f4c;
 }
 section#recent-placements .placed{
-	padding: 4px;
+	padding: 2px;
+}
+section#recent-placements .placed>div{
+padding: 4px;
+background-color: #fff;
 }
 section#recent-placements .placed p{
 	font-size: 14px;
@@ -178,7 +182,6 @@ section#recent-placements .placed p.course{
 	font-size: 10px;
 }
 section#recent-placements .placed img{
-	border: 1px solid white;
 	width: 100%;
 }
 /* Timetable */
