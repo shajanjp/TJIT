@@ -158,6 +158,29 @@ section#objectives .objective:nth-child(2){
 	background-color: #da251c;
 }
 
+/* Recent Placements */
+section#recent-placements .container{
+	background-color: #ffc857;
+	padding-bottom: 20px;
+	color: #403f4c;
+}
+section#recent-placements .placed{
+	padding: 4px;
+}
+section#recent-placements .placed p{
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+section#recent-placements .placed p.company{
+font-size: 12px;
+}
+section#recent-placements .placed p.course{
+	font-size: 10px;
+}
+section#recent-placements .placed img{
+	border: 1px solid white;
+	width: 100%;
+}
 /* Timetable */
 section.time-table {
 	margin-bottom: 20px;
