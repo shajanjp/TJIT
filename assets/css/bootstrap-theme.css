@@ -15,6 +15,9 @@ nav.navbar{
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
+ul.nav.sidebar a{
+	color: #da251c;
+}
 .btn-blue,.btn-red,
 .btn-blue:hover,.btn-red:hover{
 	color: #fff;
@@ -80,6 +83,17 @@ nav.navbar .nav li.open>a:active:visited
 	color: #fff;
 	background-color: #da251c;
 }
+.navbar-toggle{
+	border-radius: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+	background-color: #015198;
+}
+
 
 .btn.form-control{
 	border-radius:0px;
@@ -120,11 +134,18 @@ nav.navbar .nav li.open>a:active:visited
 
 header.title{
 	background-color: #da251c;
-	padding: 60px 20px;
+	padding: 80px 20px;
 	margin-bottom: 20px;
+	background-size: cover;
+	background-position: center center;
 }
 header.title h1{
 	color: white;
 	text-align: center;
+	margin: 0px auto;
+}
+header.title h1 span{
 	padding: 10px;
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.2);
 }
