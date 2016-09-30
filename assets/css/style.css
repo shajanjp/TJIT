@@ -1,10 +1,6 @@
 /* da251c-015198-ffc857-403f4c-fafaff */
 /* red-blue-yellow-gray-white */
-body{
-	background-color: #fafaff;
-	font-size: 16px;
-	line-height: 1.25;
-}
+
 section{
 	padding-top: 30px;
 }
@@ -17,93 +13,39 @@ section h2.section-head{
 	text-transform: uppercase;
 
 }
-.card{
-	background-color:white;
-	padding:20px;
-	border-radius: 2px;
-	margin:10px 0px 0px 0px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
 
-/* Navbar */
-nav.navbar{
-	border: 0px;
-	background-color: #da251c;
-	border-radius: 0px;
-	margin-bottom: 0px;
-}
-.btn-blue,.btn-red,
-.btn-blue:hover,.btn-red:hover{
-	color: #fff;
-	border-radius: 0px;
-}
-.btn-blue:hover,.btn-red:hover{
-	border-color: #eee;
-}
-.btn-blue{
-	background-color: #015198;
-	border-color: #015198;
-}
-.btn-red{
-	background-color: #da251c;
-	border-color: #da251c;	
-}
-nav.navbar .nav li a,
-nav.navbar a.navbar-brand{
-	color: #fff;
-}
-nav.navbar .nav li.active a{
-	background-color: #015198;
-	color: #fff;
-}
-nav.navbar a.navbar-brand{
-	font-weight: bold;
-}
-nav.navbar a.navbar-brand:hover,
-nav.navbar .nav li a:hover{
-	color: #fff;
-}
-
-nav.navbar .nav li a:active,
-nav.navbar .nav li a:focus,
-nav.navbar .nav li a:visited,
-nav.navbar .nav li.open>a:focus,
-nav.navbar .nav li.open>a:active,
-nav.navbar .nav li.open>a:active:visited
-.navbar-nav > li > .dropdown-menu{
-	background-color: #015198;
+/* Brand Title */
+section#brand-title{
+	text-align: center;
+	background-color: #444;
 	color: white;
-}
-.navbar-nav > li > .dropdown-menu{
-	margin-top: -1px;
-	margin-left: -1px;
-}
-.navbar-nav > li > .dropdown-menu li a:hover
-.navbar-nav > li > .dropdown-menu li a:focus,
-.navbar-nav > li > .dropdown-menu li a:visited{
-	background-color: #da251c;
-}
-.navbar-nav .open .dropdown-menu{
-	background-color: #015198;
-}
-.navbar-nav .open .dropdown-menu li a{
-	color: white;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a{
-	color: #fff;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
-	color: #fff;
-	background-color: #da251c;
-}
-
-
-section#mission-and-vision{
 	padding: 20px 0px;
 }
+section#brand-title h1{
+	text-transform: uppercase;
+	margin: 5px auto;
+}
+section#brand-title h2{
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 0px;
+}
 
+/* Objectives */
+section#mission-vision .objective{
+	text-align: justify;
+	padding:44px 60px;
+	color: white;
+	min-height: 350px;
+}
+section#mission-vision .objective:nth-child(1){
+	background-color: #015198;
+}
+section#mission-vision .objective:nth-child(2){
+	background-color: #da251c;
+}
+
+/* Why Us */
 section#why-us{
 	color: white;
 }
@@ -155,31 +97,7 @@ section#trusted-partners .partner img{
 }
 
 
-/* Mission and Vision */
-section#mission-and-vision{
-	color: #fff;
-	background-color: #403f4c;
-}
-section#mission-and-vision p{
-	text-align: justify;
-}
 
-/* Brand Title */
-section#brand-title{
-	text-align: center;
-	background-color: #da251c;
-	color: white;
-	padding: 20px 0px;
-}
-section#brand-title h1{
-	text-transform: uppercase;
-	margin: 5px auto;
-}
-section#brand-title h2{
-	font-size: 22px;
-	font-weight: 300;
-	margin-top: 0px;
-}
 
 /* Achievements */
 section#achievements .container{
@@ -220,56 +138,30 @@ section#recent-blogs article{
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-/* Objectives */
-section#objectives .objective{
-	text-align: justify;
-	padding:40px 40px;
-	color: white;
-	min-height: 380px;
-}
-section#objectives .objective:nth-child(1){
-	background-color: #015198;
-}
-section#objectives .objective:nth-child(2){
-	background-color: #da251c;
-}
+
 
 /* Testimonial */
-section#testimonials .students-container{
-	height: 500px;
+#testimonials .container{
+	background: #444;
+	height: 200px;
+	color: white;
 }
-section#testimonials img.students{
-	width: 100%;
+#testimonials .testimonial{
+	padding: 30px 0px;
+} 
+#testimonials .testimonial .content{
+	font-size: 22px;
 }
-section#testimonials div>div>div{
-	padding: 0px;
+#testimonials .testimonial h5{
+font-size: 18px;
 }
-section#testimonials .slider{
-	background-color: red;
-	height: 500px;
+#testimonials .testimonial .course{
+font-size: 16px;
 }
-section#testimonials .item{
-padding: 100px;
-color: white;
-}
-section#testimonials .item p.content{
-	font-size: 32px;
-}
-section#testimonials .item h5:before{
-	content: "-";
-}
-section#testimonials .item h5{
-	font-size: 16px;
-	margin-bottom: 0px;
-}
-section#testimonials p.course{
-	font-size: 14px;
-	font-weight: 100;
-}
+
 
 /* Recent Placements */
 section#recent-placements .container{
-	/* background-color: #ffc857; */
 	padding-bottom: 20px;
 	color: #666;
 }
@@ -300,11 +192,7 @@ section#recent-placements .placed p.course{
 section#recent-placements .placed img{
 	width: 100%;
 }
-/* Timetable */
-section.time-table {
-	margin-bottom: 20px;
 
-}
 
 /* Footer */
 footer{
