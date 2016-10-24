@@ -153,10 +153,10 @@ section#recent-blogs article{
 	font-size: 22px;
 }
 #testimonials .testimonial h5{
-font-size: 18px;
+	font-size: 18px;
 }
 #testimonials .testimonial .course{
-font-size: 16px;
+	font-size: 16px;
 }
 
 
@@ -214,6 +214,30 @@ footer li a:hover{
 	text-decoration: none;
 }
 
+#placements .student img{
+	width: 100%;
+}
+#placements .student{
+	padding:8px;
+	margin-top: 20px;
+}
+#placements .student>div{	
+	padding: 6px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#placements .student:hover>div{	
+	box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.2);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#placements .student p{
+	margin-bottom: 2px;
+	text-align: center;
+}
+#placements .student p.name{
+	font-weight: bold;
+}
 
 /* LG */
 /* Large Devices, Desktops */
