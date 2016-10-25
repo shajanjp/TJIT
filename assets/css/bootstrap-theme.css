@@ -149,3 +149,9 @@ header.title h1 span{
 	border-radius: 4px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
+header.title.img{
+	padding: 120px 20px;
+}
+header.title.img h1 span{
+background-color: rgba(0,0,0,0.6);
+}
