@@ -208,9 +208,9 @@ footer ul{
 	padding-left:0px;
 	list-style: none; 
 }
-footer li a,
-footer li a:hover{
-	color: white;
+footer a,
+footer a:hover{
+	color: #ddd;
 	text-decoration: none;
 }
 
