@@ -213,6 +213,9 @@ footer a:hover{
 	color: #ddd;
 	text-decoration: none;
 }
+footer .copyright{
+	font-weight: bold;
+}
 
 #placements .student img{
 	width: 100%;
