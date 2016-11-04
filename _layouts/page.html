@@ -4,10 +4,11 @@
 	<title>T John Institute of Technology</title>
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#DA251C">
+	<meta name="chumm">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
 	{% include navbar.html %}
@@ -15,7 +16,7 @@
 	{{ content }}
 
 	{% include footer.html %}
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
