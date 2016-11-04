@@ -143,6 +143,7 @@ header.title h1{
 	color: white;
 	text-align: center;
 	margin: 0px auto;
+	line-height: 1.7;
 }
 header.title h1 span{
 	padding: 10px;
