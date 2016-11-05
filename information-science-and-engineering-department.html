@@ -1,5 +1,6 @@
 ---
 layout : page
+branch : is
 ---
 
 <header class="title img" style="background-image: url('assets/img/headers/is.jpg');">
@@ -50,13 +51,7 @@ layout : page
 			</p>
 		</div>
 		<div class="col-sm-3">
-			<ul class="nav nav-pills nav-stacked sidebar">
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Faculties</a></li>
-				<li><a href="ise/time-table.html">Time Table</a></li>
-				<li><a href="#">Clubs</a></li>
-				<li><a href="#">Gallery</a></li>
-			</ul>
+			{% include branch_sidebar.html %}
 		</div>	
 	</div>
 </div>
