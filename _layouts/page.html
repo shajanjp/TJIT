@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>T John Institute Of Technology</title>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#DA251C">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta name="keywords" content="tjit,engineering,bangalore,be,campus,tjohn">
+	<meta name="keywords" content="{% if page.tags %}{{page.tags}}{% endif %}">
 	<meta name="description" content="{{ site.description }}">
 	
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
