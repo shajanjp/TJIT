@@ -1,7 +1,8 @@
 <ul class="nav nav-pills nav-stacked sidebar">
-	<li><a href="{{page.branch}}/events.html">Events</a></li>
-	<li><a href="{{page.branch}}/faculties.html">Faculties</a></li>
-	<li><a href="{{page.branch}}/time-table.html">Time Table</a></li>
-	<li><a href="{{page.branch}}/clubs.html">Clubs</a></li>
-	<li><a href="{{page.branch}}/gallery.html">Gallery</a></li>
+	{% assign link=page.url | split: '/' %}
+	<li class="{% if link[2] == 'events' %}now{% endif %}"><a href="events.html">Events {{ link[2] }}</a></li>
+	<li class="{% if link[2] == 'faculties' %}now{% endif %}""><a href="faculties.html">Faculties</a></li>
+	<li class="{% if link[2] == 'time-table' %}now{% endif %}""><a href="time-table.html">Time Table</a></li>
+	<li class="{% if link[2] == 'clubs' %}now{% endif %}""><a href="clubs.html">Clubs</a></li>
+	<li class="{% if link[2] == 'gallery' %}now{% endif %}""><a href="gallery.html">Gallery</a></li>
 </ul>
