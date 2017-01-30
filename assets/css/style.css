@@ -73,6 +73,8 @@ section#courses-offered{
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
+	background-color: #015198;
+	background-blend-mode: overlay;
 	padding: 120px 0px;
 }
 section#courses-offered h2.section-head{
@@ -240,6 +242,13 @@ footer .copyright{
 }
 #placements .student p.name{
 	font-weight: bold;
+}
+
+.sidebar li.now{
+  border-left: 3px solid #da251c;
+}
+.sidebar li a{
+	border-radius: 0px 4px 4px 0px; 
 }
 
 /* LG */
