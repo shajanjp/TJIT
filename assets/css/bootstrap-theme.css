@@ -1,11 +1,12 @@
 /** Bootstrap v3.3.6 theme for TJIT * Copyright 2011-2015 GuysWhoCode* Licensed under GPL (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500);
 body{
-	background-color:#fafaff;
+	background-color:#fafafa;
 	font-family: 'Ubuntu', sans-serif;
-	background-color: #fafaff;
+	background-color: #fafafa;
 	font-size: 16px;
 	line-height: 1.25;
+	color: #444;
 }
 
 /* Navbar */
@@ -104,6 +105,39 @@ nav.navbar .nav li.open>a:active:visited
 .form-control:focus{
 	box-shadow:none;
 }
+textarea.form-control,
+input.form-control{
+	background-color: transparent;
+	color: #da251c;
+	border-color: #AAA;
+	font-size: 16px;
+}
+textarea.form-control:focus,
+input.form-control:focus,
+textarea.form-control:hover,
+input.form-control:hover{
+	border-color: #da251c;
+}
+input.form-control{
+	height: 50px;
+}
+textarea.form-control{
+	margin-top: 20px;
+}
+input[type='submit'].btn{
+	margin-top: 14px;
+	height: 40px;
+	padding: 8px 20px;
+	border-color: #AAA;
+	color: #AAA;
+	background-color: transparent;
+}
+input[type='submit'].btn:hover,
+input[type='submit'].btn:focus{
+	border-color:  #da251c;
+	color: #da251c;
+}
+
 .color-red,
 .color-1{
 	color:#da251c;

@@ -99,8 +99,46 @@ layout : page
 				</div>
 			</div>
 		</div>
+		<div class="row achievements">
+			<div class="col-sm-3 col-xs-6 achievement">
+				<p class="num">250+</p>
+				<p class="title">Guest Seminars</p>
+			</div>
+			<div class="col-sm-3 col-xs-6 achievement">
+				<p class="num">25+</p>
+				<p class="title">International Workshops</p>
+			</div>
+			<div class="col-sm-3 col-xs-6 achievement">
+				<p class="num">50+</p>
+				<p class="title">Experienced Faculties</p>
+			</div>
+			<div class="col-sm-3 col-xs-6 achievement">
+				<p class="num">60+</p>
+				<p class="title">Digital Classrooms</p>
+			</div>
+		</div>
 	</div>
 </section>
+
+
+<!-- Faculties -->
+<section id="faculties">
+	<h2 class="section-head">Our Experienced Faculties</h2>
+	<div class="container">
+		<div class="row">
+			{% for faculty in site.categories.hod %}
+			<div class="col-sm-2 faculty">
+				<div class="card">
+					<img src="/uploads/faculties/avatar.jpg" alt="">
+					<h4>{{ faculty.name }}</h4>
+					<p class="degree">{{ faculty.degree }}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>	
+</section>
+
 
 <section id="courses-offered">
 	<h2 class="section-head">Coures Offered</h2>
@@ -124,32 +162,10 @@ layout : page
 	</div>
 </section>
 
-<section id="achievements">
-	<!-- <h2 class="section-head">Achievements</h2> -->
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-3 col-xs-6 achievement">
-				<p class="num">250+</p>
-				<p class="title">Guest Seminars</p>
-			</div>
-			<div class="col-sm-3 col-xs-6 achievement">
-				<p class="num">25+</p>
-				<p class="title">International Workshops</p>
-			</div>
-			<div class="col-sm-3 col-xs-6 achievement">
-				<p class="num">50+</p>
-				<p class="title">Experienced Faculties</p>
-			</div>
-			<div class="col-sm-3 col-xs-6 achievement">
-				<p class="num">60+</p>
-				<p class="title">Digital Classrooms</p>
-			</div>
-		</div>
-	</div>
-</section>
 
+<!-- Trusted Partners -->
 <section id="trusted-partners">
-	<h2 class="section-head">Trusted Partners</h2>
+	<h2 class="section-head">Career Partners</h2>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-2 col-xs-4 partner"><img src="assets/img/partners/ibm-logo.jpg" alt=""></div>
@@ -162,27 +178,41 @@ layout : page
 	</div>
 </section>
 
+
+<!-- Testimonials -->
 <section id="testimonials">
-	<h2 class="section-head">What Our Students Say</h2>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-offset-3 col-sm-6">
-				<div class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner" role="listbox">
-						<div class="item testimonial active">
-							<p class="content">I personally feel proud to be a student of T John institute of Technology.</p>
-							<h5>Akhila Gowda</h5>
-							<p class="course">BE - CSE</p>
+			<div class="col-sm-2">
+
+			</div>
+			<div class="col-sm-10">
+				<div class="row">
+					<div class="col-sm-4 testimonial">
+						<div>
+							<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusantium excepturi, id dolorem quidem tenetur reprehenderit sed maxime sapiente quod!</p>
+							<div class="person">
+								<p class="name">Sana Anas</p>
+								<p class="title">Student, BE-CS</p>
+							</div>
 						</div>
-						<div class="item testimonial">
-							<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptas maxime officia quam nemo.</p>
-							<h5>Awesome Student Name 2</h5>
-							<p class="course">Course Name 2</p>
+					</div>
+					<div class="col-sm-4 testimonial">
+						<div>
+							<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam repellendus vero, expedita enim. Consequatur voluptates corporis molestias repellendus, ullam!</p>
+							<div class="person">
+								<p class="name">Sana Anas</p>
+								<p class="title">Student, BE-CS</p>
+							</div>
 						</div>
-						<div class="item testimonial">
-							<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eos distinctio minus .</p>
-							<h5>Awesome Student Name 3</h5>
-							<p class="course">Course Name 3</p>
+					</div>
+					<div class="col-sm-4 testimonial">
+						<div>
+							<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas adipisci reprehenderit neque repudiandae, soluta quisquam laborum voluptatibus asperiores illo minima?</p>
+							<div class="person">
+								<p class="name">Sana Anas</p>
+								<p class="title">Student, BE-CS</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -192,14 +222,14 @@ layout : page
 </section>
 
 <section id="recent-blogs">
-	<h2 class="section-head">Recent Blogs</h2>
+	<h2 class="section-head">Recent Blog Posts</h2>
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4 blog">
 				<article>
 					<img src="assets/img/covers/cover1.jpg" alt="" class="cover">
 					<div class="details">
-						<h3 class="title">Qualcom Talent Hunt</h3>
+						<h3 class="title">How to remember anything</h3>
 						<p class="brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit fugit ab quisquam laudantium expedita, esse delectus maxime nobis facilis?</p>
 						<a href="" class="readmore">Read More</a>
 					</div>
@@ -209,7 +239,7 @@ layout : page
 				<article>
 					<img src="assets/img/covers/cover1.jpg" alt="" class="cover">
 					<div class="details">
-						<h3 class="title">HackerEarth Tech Meetup</h3>
+						<h3 class="title">5 Tips for your next exam</h3>
 						<p class="brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit fugit ab quisquam laudantium expedita, esse delectus maxime nobis facilis?</p>
 						<a href="" class="readmore">Read More</a>
 					</div>
@@ -219,7 +249,7 @@ layout : page
 				<article>
 					<img src="assets/img/covers/cover1.jpg" alt="" class="cover">
 					<div class="details">
-						<h3 class="title">Linuxcon Code Summit</h3>
+						<h3 class="title">3 books you should read</h3>
 						<p class="brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit fugit ab quisquam laudantium expedita, esse delectus maxime nobis facilis?</p>
 						<a href="" class="readmore">Read More</a>
 					</div>
@@ -229,10 +259,48 @@ layout : page
 	</div>
 </section>
 
+
+<!-- Events -->
+<section id="recent-events">
+	<h2 class="section-head">Upcoming Events</h2>
+	<div class="container">
+		<div class="row events">
+			{% for event in site.categories.events %}
+			<div class="col-sm-3 event">
+				<div>
+				<img src="/uploads/events/{% if event.image %}{{ event.image }}{% else %}mindprick-developers-meet.jpg{% endif %}" alt="">
+					<div>	
+						<h3 class="title">{{ event.title }}</h3>
+						<p class="date">{{ event.date }}</p>
+						{{ event.excerpt }}
+						<a href="" class="view">View Details</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+<!-- Quick Contact -->
 <section id="quick-contact">
 	<div class="container">
-		<form action="">
-
+		<form action="" method="POST">
+			<div class="row">
+				<div class="col-sm-6">
+					<input type="text" name="" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-sm-6">
+					<input type="text" name="" class="form-control" placeholder="Email">
+				</div>
+				<div class="col-sm-12">
+					<textarea name="" rows="5" class="form-control" placeholder="Message"></textarea>
+				</div>
+				<div class="col-sm-3">
+					<input type="submit" value="Send" class="btn">
+				</div>
+			</div>
 		</form>
 	</div>
 </section>

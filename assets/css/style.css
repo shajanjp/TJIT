@@ -11,7 +11,6 @@ section h2.section-head{
 	text-align: center;
 	font-size: 22px;
 	text-transform: uppercase;
-
 }
 
 /* Brand Title */
@@ -24,6 +23,7 @@ section#brand-title{
 section#brand-title h1{
 	text-transform: uppercase;
 	margin: 5px auto;
+	font-weight: 300;
 }
 section#brand-title h2{
 	font-size: 22px;
@@ -48,9 +48,10 @@ section#mission-vision .objective:nth-child(2){
 /* Why Us */
 section#why-us{
 	color: white;
+	background-color: #403f4c;
+	margin-top: 30px;
 }
 section#why-us .container{
-	background-color: #403f4c;
 	padding: 20px;
 }
 section#why-us .highlights .highlight{
@@ -65,10 +66,47 @@ section#why-us .highlights .highlight .symbol{
 section#why-us .highlights .highlight img{
 	width: 100%;
 }
+section#why-us .achievements{
+	padding: 20px 0px;
+	text-align: center;
+}
+section#why-us .achievement p.num{
+	font-size: 42px;
+	font-weight: 300;
+}
+section#why-us .achievement p.title{
+
+}
+
+/* Faculties */
+section#faculties{
+	margin-bottom: 30px;
+}
+section#faculties .faculty{
+	text-align: center;
+}
+section#faculties .faculty div{
+	padding: 10px;
+	background-color: #fff;
+}
+section#faculties .faculty img{
+	width: 100%;
+}
+section#faculties .faculty p.degree{
+	font-size: 12px;
+	color: #666;
+	margin: 6px 0px;
+}
+section#faculties .faculty h4{
+	font-size: 16px;
+	color: #444;
+	margin-bottom: 0px;	
+}
+
 
 /* Courses Offered */
 section#courses-offered{
-	margin-top: 20px;
+	margin-top: 0px;
 	background-image: url('../img/courses.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -89,6 +127,9 @@ section#courses-offered .course{
 }
 
 /* Trusted Partners */
+section#trusted-partners{
+	margin:40px 0px; 
+}
 section#trusted-partners .partner{
 	padding: 10px;
 }
@@ -96,29 +137,6 @@ section#trusted-partners .partner img{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	width: 100%;
-}
-
-
-
-
-/* Achievements */
-section#achievements .container{
-	background-color: #015198;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-section#achievements .achievement{
-	text-align: center;
-}
-section#achievements .achievement p{
-	margin-bottom: 0px;
-}
-section#achievements .achievement p.num{
-	font-size: 52px;
-}
-section#achievements .achievement p.title{
-	font-size: 24px;
 }
 
 /* Recent blogs */
@@ -130,6 +148,7 @@ section#recent-blogs article img{
 }
 section#recent-blogs article h3{
 	margin-top: 0px;
+	text-transform: capitalize;
 }
 section#recent-blogs article div{
 	padding: 15px;
@@ -140,27 +159,47 @@ section#recent-blogs article{
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-
-
-/* Testimonial */
-#testimonials .container{
-	background: #444;
-	height: 200px;
-	color: white;
+/* Recent Events */
+#recent-events h2{
+	margin-bottom: 20px;
 }
-#testimonials .testimonial{
-	padding: 30px 0px;
-} 
-#testimonials .testimonial .content{
-	font-size: 22px;
+#recent-events .event > div{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	background-color: #fff;
 }
-#testimonials .testimonial h5{
-	font-size: 18px;
+#recent-events .event > div > div{
+	padding: 10px;
 }
-#testimonials .testimonial .course{
+#recent-events .event img{
+	width: 100%;
+}
+#recent-events .event p{
 	font-size: 16px;
 }
-
+#recent-events .event h3{
+	margin: 0px;
+	font-size: 20px
+}
+#recent-events .event p.date{
+	font-size: 14px;
+	margin:4px 0px 6px 0px;
+}
+/* Testimonials */
+section#testimonials{
+	background-color: #015198;
+	padding: 60px 0px;
+}
+section#testimonials .testimonial > div{
+	padding: 10px;
+	color: #fff;
+}
+section#testimonials .testimonial div.person{
+	padding-left: 4px;
+	border-left: 2px solid white;
+}
+section#testimonials .testimonial div.person p{
+	margin-bottom: 4px;
+}
 
 /* Recent Placements */
 section#recent-placements .container{
@@ -201,7 +240,7 @@ footer{
 	background-color: #015198;
 	color: white;
 	padding-top: 30px;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 footer p.title{
 	font-weight: bold;
@@ -244,11 +283,15 @@ footer .copyright{
 	font-weight: bold;
 }
 
-.sidebar li.now{
-  border-left: 3px solid #da251c;
+section#quick-contact{
+margin-top: 20px;
+padding: 50px 0px;
+background-color: #444;
 }
-.sidebar li a{
-	border-radius: 0px 4px 4px 0px; 
+
+.sidebar li.now a{
+	background-color: #eee;
+	color: #015198; 
 }
 
 /* LG */
