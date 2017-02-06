@@ -105,10 +105,11 @@ nav.navbar .nav li.open>a:active:visited
 .form-control:focus{
 	box-shadow:none;
 }
+
 textarea.form-control,
 input.form-control{
 	background-color: transparent;
-	color: #da251c;
+	color: #444;
 	border-color: #AAA;
 	font-size: 16px;
 }
@@ -116,7 +117,7 @@ textarea.form-control:focus,
 input.form-control:focus,
 textarea.form-control:hover,
 input.form-control:hover{
-	border-color: #da251c;
+	border-color: #444;
 }
 input.form-control{
 	height: 50px;
@@ -129,13 +130,13 @@ input[type='submit'].btn{
 	height: 40px;
 	padding: 8px 20px;
 	border-color: #AAA;
-	color: #AAA;
+	color: #444;
 	background-color: transparent;
 }
 input[type='submit'].btn:hover,
 input[type='submit'].btn:focus{
-	border-color:  #da251c;
-	color: #da251c;
+	border-color:  #444;
+	color: #444;
 }
 
 .color-red,
@@ -155,7 +156,7 @@ input[type='submit'].btn:focus{
 	color:#403f4c;
 }
 .color-white,
-.color-5{
+.color444
 	color:#fafaff;
 }
 

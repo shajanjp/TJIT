@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "MindrPrick Developers Meet"
+title: "MindrPrick Dev Meet"
 event-date: 
 category: events
 image: mindprick-developers-meet.jpg

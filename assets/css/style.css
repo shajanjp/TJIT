@@ -284,9 +284,15 @@ footer .copyright{
 }
 
 section#quick-contact{
-margin-top: 20px;
-padding: 50px 0px;
-background-color: #444;
+	margin-top: 20px;
+	padding: 50px 0px;
+	background-color: #fafafa 
+}
+section#quick-contact .form-control:focus,
+section#quick-contact .form-control:hover,
+section#quick-contact .btn:focus,
+section#quick-contact .btn:hover{
+	border-color:#da251c;
 }
 
 .sidebar li.now a{
